@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ingrid Darling", cursiva;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+
+
+.tela-de-carregamento {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pra-organizar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+
+.background-do-carregamento {
+    opacity: 50%;
+    width: 300px;
+    animation: planeta1 2s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+
+.background-do-carregamento2 {
+    opacity: 50%;
+    width: 300px;    
+    animation: planeta2 2s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+
+@keyframes planeta1 {
+    0% {width: 300px; height: 400px;}
+    25% {width: 150px; height: 400px}
+    50% {width: 0px; height: 400px}
+    75% {width: 150px; height: 400px}
+    100% {width: 300px; height: 400px}
+}
+
+@keyframes planeta2 {
+    0% {width: 300px; height: 400px}
+    25% {width: 150px; height: 400px}
+    50% {width: 0px; height: 400px}
+    75% {width: 150px; height: 400px}
+    100% {width: 300px; height: 400px}
+}
+
+
+nav {
+    display: flex;
+    gap: 100px;
+}
+
+a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    filter: drop-shadow(10px 0 10px black);
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 60px;
+}
+
+
+
+
+.background {
+    position: absolute;
+    top: 0;
+    width: 582px;
+    left: calc(50% - 291px);
+    opacity: 50%;
+    z-index: -1;
+}
+
+.caracter {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+}
+
+h2:hover {
+    color: gray;
+    filter: drop-shadow(10px 0 10px black);
+    transition: 0.5s;
+}
+
+.espaço-dos-perfumes {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    opacity: 100%;
+    gap: 30px;
+}
+
+.perfumes:hover {
+    filter: drop-shadow(10px 0 10px black);
+    transition: 0.5s;
+}

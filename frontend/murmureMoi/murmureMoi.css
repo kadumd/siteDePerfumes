@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ingrid Darling", cursiva;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    gap: 100px;
+}
+
+a {
+    font-size: 40px;
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    filter: drop-shadow(10px 0 10px black);
+    transition: 0.5s;
+}
+
+.logo {
+    font-size: 60px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    width: 582px;
+    left: calc(50% - 291px);
+    opacity: 10%;
+    z-index: -1;
+}
+
+.espaço-do-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moldura-do-chat {
+    height: 700px;
+}
+
+.pagina-onde-estou{
+    color: black;
+    filter: drop-shadow(10px 0 5px black);
+}
+
+#parte-da-conversa1 {
+    position: absolute;
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 290px;
+    width: 600px;
+    overflow-y: scroll;
+}
+
+#envio1 {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 600px;
+    left: 980px;
+}
+
+#escrever1 {
+    position: absolute;
+    font-size: 20px;
+    width: 600px;
+    height: 25px;
+    top: 600px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
