@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src":"frontend/view/**/*",
+            "src":"frontend/**/*",
             "use":"@vercel/static"
         }
     ],
