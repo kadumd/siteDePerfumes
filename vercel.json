@@ -1,0 +1,64 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src":"frontend/view/**/*",
+            "use":"@vercel/static"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "frontend/view/index.html"
+        },
+        {
+            "src": "/main.css",
+            "dest": "frontend/main.css"
+        },
+        {
+            "src": "/script.js",
+            "dest": "frontend/script.js"
+        },
+
+
+        {
+            "src": "/biographie.html",
+            "dest": "frontend/biographie/biographie.html"
+        },
+        {
+            "src": "/biographie.css",
+            "dest": "frontend/biographie/biographie.css"
+        },
+        {
+            "src": "/biographie.js",
+            "dest": "frontend/biographie/biographie.js"
+        },
+
+
+        {
+            "src": "/vanites.html",
+            "dest": "frontend/vanités/vanites.html"
+        },
+        {
+            "src": "/vanites.css",
+            "dest": "frontend/vanités/vanites.css"
+        },
+        {
+            "src": "/vanites.js",
+            "dest": "frontend/vanités/vanites.js"
+        },
+
+        {
+            "src": "/murmureMoi.html",
+            "dest": "frontend/murmureMoi/murmureMoi.html"
+        },
+        {
+            "src": "/murmureMoi.css",
+            "dest": "frontend/murmureMoi/murmureMoi.css"
+        },
+        {
+            "src": "/murmureMoi.js",
+            "dest": "frontend/murmureMoi/murmureMoi.js"
+        }
+    ]
+}
