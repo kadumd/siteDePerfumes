@@ -138,7 +138,7 @@ const servidor = http.createServer((pedido, resposta) => {
             break
         case '/audios/eerie-monster-breath-sound-6-vol-004-169084.mp3':
             resposta.writeHead(200, { "Content-Type": "audio/mpeg" });
-            resposta.end(fs.readFileSync('./frontend/audios/suspense-sound-effect-imovie.mp3'));
+            resposta.end(fs.readFileSync('./frontend/audios/eerie-monster-breath-sound-6-vol-004-169084.mp3'));
             break
         case '/audios/horror-sound-monster-snort-189930.mp3':
             resposta.writeHead(200, { "Content-Type": "audio/mpeg" });
