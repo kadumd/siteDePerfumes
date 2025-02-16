@@ -113,6 +113,10 @@
 
 
         {
+            "src": "/imgs/logo.png",
+            "dest": "frontend/imgs/logo.png"
+        },
+        {
             "src": "/imgs/bg.png",
             "dest": "frontend/imgs/bg.png"
         },
