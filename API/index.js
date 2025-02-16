@@ -44,17 +44,17 @@ const servidor = http.createServer((pedido, resposta) => {
 
         case '/vanites.html':
             resposta.writeHead(200, { "Content-Type": "text/html" });
-            resposta.end(fs.readFileSync('./frontend/vanités/vanites.html'));
+            resposta.end(fs.readFileSync('./frontend/vanites/vanites.html'));
             break
 
         case '/vanites.css':
             resposta.writeHead(200, { "Content-Type": "text/css" });
-            resposta.end(fs.readFileSync('./frontend/vanités/vanites.css'));
+            resposta.end(fs.readFileSync('./frontend/vanites/vanites.css'));
             break
 
         case '/vanites.js':
             resposta.writeHead(200, { "Content-Type": "text/javascript" });
-            resposta.end(fs.readFileSync('./frontend/vanités/vanites.js'));
+            resposta.end(fs.readFileSync('./frontend/vanites/vanites.js'));
             break
 
         //murmure moi ==============================================================================================================

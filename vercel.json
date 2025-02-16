@@ -37,15 +37,15 @@
 
         {
             "src": "/vanites.html",
-            "dest": "frontend/vanités/vanites.html"
+            "dest": "frontend/vanites/vanites.html"
         },
         {
             "src": "/vanites.css",
-            "dest": "frontend/vanités/vanites.css"
+            "dest": "frontend/vanites/vanites.css"
         },
         {
             "src": "/vanites.js",
-            "dest": "frontend/vanités/vanites.js"
+            "dest": "frontend/vanites/vanites.js"
         },
 
         {
