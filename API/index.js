@@ -156,6 +156,10 @@ const servidor = http.createServer((pedido, resposta) => {
         //==========================================================================================================================
         
         //logo=========
+        case '/imgs/logo.png':
+            resposta.writeHead(200, { "Content-Type": "image/png" });
+            resposta.end(fs.readFileSync('./frontend/imgs/logo.png'));
+            break
 
         case '/imgs/bg.png':
             resposta.writeHead(200, { "Content-Type": "image/png" });
