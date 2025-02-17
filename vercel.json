@@ -60,6 +60,10 @@
             "src": "/murmureMoi.js",
             "dest": "frontend/murmureMoi/murmureMoi.js"
         },
+        {
+            "src": "/conversa.json",
+            "dest": "frontend/murmureMoi/conversa.json"
+        },
 
 
 
