@@ -64,10 +64,6 @@
             "src": "/conversa.json",
             "dest": "frontend/murmureMoi/conversa.json"
         },
-        {
-            "src": "/envio",
-            "dest": "API/index.js"
-        },
         
 
 

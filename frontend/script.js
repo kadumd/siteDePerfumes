@@ -5,7 +5,6 @@ const pgn = document.querySelector(".pagina-onde-estou")
 
 function tela () {
     setTimeout(() => {
-        console.log("oi")
         div.style.display = "none"
         pgn.style.webkitFilter = "drop-shadow(10px 0 5px black)";
     }, 2000);
